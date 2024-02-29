@@ -80,6 +80,6 @@ import random
 
 kusimus=input("Tere! Esitage oma küsimus(jah/ei): ")
 vastused=["Jah, muidugi!","Jah!","Võib-olla!","Ei!"]
-indeks = random.randint(0, len(vastused) - 1)
-vastus = vastused[indeks]
+indeks=random.randint(0,len(vastused)-1)
+vastus=vastused[indeks]
 print("vastus teie küsimusele","(",kusimus,")","on:",vastus)
